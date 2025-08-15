@@ -32,18 +32,6 @@ proot-distro list
 
 ---
 
-## 4️⃣ Instalar una distribución (ejemplo: Ubuntu)
-```bash
-proot-distro install ubuntu
-```
-
----
-
-## 5️⃣ Iniciar la distribución
-```bash
-proot-distro login ubuntu
-```
-
 ---
 
 ## 6️⃣ Actualizar paquetes dentro de la distribución
