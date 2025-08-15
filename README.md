@@ -24,24 +24,6 @@ apt update && apt upgrade -y
 ```
 ---
 
-## 3️⃣ Listar distribuciones disponibles
-Para ver qué distribuciones puedes instalar:
-```bash
-proot-distro list
-```
-
----
-
----
-
-## 6️⃣ Actualizar paquetes dentro de la distribución
-Una vez dentro del entorno Linux:
-```bash
-apt update && apt upgrade -y
-```
-
----
-
 ## 7️⃣ Salir de la distribución
 ```bash
 exit
@@ -49,60 +31,6 @@ exit
 
 ---
 
-## 📌 Notas útiles
-- **Reinstalar una distribución**:
-```bash
-proot-distro remove <nombre> && proot-distro install <nombre>
-```
-- **Solución de errores de claves GPG**:
-```bash
-apt install ca-certificates -y && apt update
-```
-- Distribuciones disponibles incluyen: `ubuntu`, `debian`, `fedora`, `archlinux`, entre otras.
-
----
-
-
-```
-
----
-
-> ⚡ Con esto podrás tener un entorno Linux completo dentro de tu Android usando Termux.
-
-
-# 📚 Índice
-
-## PROOT-DISTRO (🟠 UBUNTU)
-```bash
-pkg update
-pkg install x11-repo
-pkg install termux-x11-nightly
-pkg install pulseaudio
-pkg install proot-distro
-```
-
-Luego instala Ubuntu e inicia sesión una vez finalice: 
-```bash
-proot-distro install ubuntu
-proot-distro login ubuntu
-```
-
-Actualiza los repositorios e instala cualquier paquete que necesites: 
-```bash
-apt update 
-apt upgrade
-
-apt install sudo nano adduser -y
-```
-
----  
-<br>
-
-## ⬇️ Descarga scripts fácilmente: <a name=easy-download-ubuntu-proot></a> 
-* startgnome_ubuntu.sh
-```bash
-wget https://raw.githubusercontent.com/LinuxDroidMaster/Termux-Desktops/main/scripts/proot_ubuntu/startgnome_ubuntu.sh
-```
 * startxfce4_ubuntu.sh
 ```bash
 wget https://raw.githubusercontent.com/LinuxDroidMaster/Termux-Desktops/main/scripts/proot_ubuntu/startxfce4_ubuntu.sh
