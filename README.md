@@ -14,12 +14,13 @@ pkg update -y && pkg upgrade -y
 
 ---
 
-## 2️⃣ Instalar `proot-distro`
-`proot-distro` nos permite instalar distribuciones Linux dentro de Termux:
+## 🚀 Ejemplo rápido
 ```bash
+pkg update -y && pkg upgrade -y
 pkg install proot-distro -y
-```
-
+proot-distro install ubuntu
+proot-distro login ubuntu
+apt update && apt upgrade -y
 ---
 
 ## 3️⃣ Listar distribuciones disponibles
@@ -72,13 +73,7 @@ apt install ca-certificates -y && apt update
 
 ---
 
-## 🚀 Ejemplo rápido
-```bash
-pkg update -y && pkg upgrade -y
-pkg install proot-distro -y
-proot-distro install ubuntu
-proot-distro login ubuntu
-apt update && apt upgrade -y
+
 ```
 
 ---
